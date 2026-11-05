@@ -1,0 +1,31 @@
+##fileformat=VCFv4.2
+##fileDate=20260314
+##source=FakeCaller v2.1
+##reference=file:///Users/jdoe/projects/smithlab_cancer/ref/hg38.fa
+##FakeCallerCommandLine=<ID=Call,CommandLine="call --in /home/jdoe/raw/batch3.bam --out /data/smithlab/cohort/batch3.vcf">
+##contact=jdoe@example.org
+##server=10.12.4.27
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele frequency">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##contig=<ID=chr1,length=248956422>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	Jane_Doe	PT-19850412	MRN00482913	lab_sample_07
+chr1	52405	var0	A	C	50	PASS	AF=0.140	GT	1/1	0/1	0/0	0/0
+chr1	59622	var1	A	T	50	PASS	AF=0.219	GT	0/1	0/0	0/0	0/0
+chr1	93240	var2	A	T	50	PASS	AF=0.545	GT	0/0	1/1	1/1	1/1
+chr1	108186	var3	T	G	50	PASS	AF=0.423	GT	0/1	0/0	0/0	1/1
+chr1	126896	var4	C	A	50	PASS	AF=0.097	GT	0/1	0/0	0/0	0/1
+chr1	149937	var5	G	A	50	PASS	AF=0.973	GT	1/1	0/1	1/1	0/0
+chr1	175244	var6	A	T	50	PASS	AF=0.577	GT	0/1	1/1	1/1	0/1
+chr1	221918	var7	A	C	50	PASS	AF=0.855	GT	1/1	0/0	0/1	0/0
+chr1	229037	var8	T	C	50	PASS	AF=0.370	GT	0/1	1/1	0/1	0/0
+chr1	243267	var9	G	T	50	PASS	AF=0.635	GT	1/1	1/1	0/0	1/1
+chr1	278772	var10	C	A	50	PASS	AF=0.688	GT	0/1	0/1	0/1	1/1
+chr1	293664	var11	G	A	50	PASS	AF=0.268	GT	0/0	0/0	0/1	0/1
+chr1	307990	var12	G	A	50	PASS	AF=0.459	GT	1/1	0/1	0/1	1/1
+chr1	325849	var13	C	A	50	PASS	AF=0.747	GT	1/1	1/1	1/1	0/1
+chr1	354426	var14	T	C	50	PASS	AF=0.091	GT	0/0	0/0	1/1	0/1
+chr1	358013	var15	A	C	50	PASS	AF=0.596	GT	1/1	0/0	1/1	0/1
+chr1	383729	var16	T	G	50	PASS	AF=0.861	GT	0/1	1/1	0/1	1/1
+chr1	384981	var17	A	T	50	PASS	AF=0.112	GT	1/1	0/1	1/1	0/1
+chr1	413973	var18	C	G	50	PASS	AF=0.972	GT	0/0	1/1	1/1	0/1
+chr1	426181	var19	A	T	50	PASS	AF=0.199	GT	0/1	1/1	1/1	1/1
