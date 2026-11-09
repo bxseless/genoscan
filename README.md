@@ -11,8 +11,7 @@ collaborator, a public repository or a GitHub repo.
 
 ## Why
 
-<!-- TODO (AJ): write this section in your own voice. Why does this matter to
-you? Where does your security background come in? Keep it to 3-5 sentences. -->
+Many people dont notice that genetic files carry more information than just the DNA itself. Genetic data can’t be changed like a password. And researchers have re-identified people from “anonymous” genomic data (for example, Gymrek et al., 2013, identified people by inferring their surnames from Y-chromosome markers). Security tools scan code for leaked secrets before its published and genomic data deserves the same check.
 
 ## Install
 
